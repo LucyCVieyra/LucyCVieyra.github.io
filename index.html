@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Lucy Carmona Vieyra">
+    <meta name="description" content="Portafolio de desarrollo web de Lucy Carmona Vieyra">
+    <meta name="keywords" content="C/C++, Python, HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Lucy Carmona Vieyra | Desarrollo de Software </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icon.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Itim&family=Lobster&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icon.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Lucy.jpeg" alt="Foto de Lucy Carmona Vieyra">
+        <h1>Hola, soy Lucy Carmona Vieyra</h1>
+
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/Vec-LucyTech.png" alt="Drones y Software">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Lucy Carmona Vieyra</h2>
+        <p class="seccion-texto">Soy estudiante de octavo cuatrimestre de Ingeniería en Electrónica y Control de Sistemas de Aeronaves. Tengo conoocimientos en las áreas de diseño de software aerotransportado, control de sistemas aéreos y electrónica aplicada.  En el área de software manejo lenguajes como C/C++, Python, HTML y CSS, pero últimamente me he centrado en proyectos que involucran desarrollo de programas para seguimiento de trayectorías y misiones de Drones autónomos. </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo de Software -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Diseño de software</p>
+            <p class="texto-s">Realizo desarrollo de software mediante los lenguajes de C/C++, Python, MATLAB, ensamblador, HTML, CSS, JavaScript </p>
+            <div class="badges-contenedor">
+              <span class="badge">C/C++</span>
+              <span class="badge">Python</span>
+              <span class="badge">MATLAB</span>
+              <span class="badge">Ensamblador</span>
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">GitHub</span>
+            </div>
+          </div>
+          <!-- Drones -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Participo en proyectos de desarrollo de UAV's</p>
+            <p class="texto-s">Realizo desarrollo de software enfocado en vehículos aereos no tripulados mediante los lenguajes de C/C++ y Python con ayuda de herramientas como ROS y Mavlink. Soy parte del equipo DronKab de la UNAQ </p>
+            <div class="badges-contenedor">
+              <span class="badge">C/C++</span>
+              <span class="badge">Python</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p class="texto-s">Soy estudiante de octavo cuatrimestre de Ingeniería en Electrónica y Control de Sistemas de Aeronaves en la Universidad Aeronáutica en Querétaro</p>
+            <div class="badges-contenedor">
+              <span class="badge">UNAQ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Proj1_Google.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clone de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LucyCVieyra/Google_Clone" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://google-clone-gray-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Proj2_Drones.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Página web de UAV's</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LucyCVieyra/UAV-s" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://uav-s.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Proj3_Forest.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LucyCVieyra/Hello-Forest" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://hello-forest-umber.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Proj4_WayPoints.jpeg" alt="Proyecto 4">
+              <div class="overlay">
+                <p>WayPoints con DJITello</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LucyCVieyra/WayPoints_DJITello" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Proj5_Plat.jpeg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Búsqueda de plataforma con DJITello</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LucyCVieyra/Platform_DJITello/tree/main" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 6">
+              <div class="overlay">
+                <p>Cubo movible con entrada de teclado</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LucyCVieyra/Cube-Moving-Roting/tree/main" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/LucyCVieyra" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis colaboradores...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1174135021519503391/1182156377645400147/Anelm.PNG?ex=6583abeb&is=657136eb&hm=4f9eb4fd5f412d36a79809b298c526a0d54868b6f56e5194623728fd816a87a9&=&format=webp&quality=lossless&width=596&height=593" alt="Foto de Gino">
+              <p class="testimonio-texto">Lucy muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Lucy seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Anel Montes</p>
+                <p class="cargo">Instructora de DesarrolloWeb en TecnoloChicasPro</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1171245403421814864/1181431975047856238/fotowinona.jpg?ex=65810944&is=656e9444&hm=99eeef137c1873f41eafd267fc7a9cd087573a0bdd049ca817796d8a0353cf04&=&format=webp&width=326&height=593" alt="Foto de Nora">
+              <p class="testimonio-texto">Es de mi agrado comunicar que Lucy es una persona comprometida con su trabajo, creativa, empática y curiosa. Me inspira con sus participaciones, sin duda colaborar con ella te aportará una gran satisfacción y seguridad.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Lind</p>
+                <p class="cargo">LCT, soporte TI, impulsora de cultura libre, permacultora</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Jair.jpeg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lucy siempre tiene una excelente disposición a aprender y aportar con su creatividad y su conocimiento a los proyectos que se le solicitan. Es una gran colaboradora y trabajadora en equipo, siempre cuenta con una actitud de disposición a aprender y a mejorar con cada actividad que realiza, además de contar con amplias fortalezas y cualidades en el desarrollo de programación.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jair Aguilar</p>
+                <p class="cargo">Estudiante de Ingeniería en Electrónica y Control de Sistemas de Aeronaves</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="contacto-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo de software o para colaborar.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:9496@soyunaq.mx">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/IconWhite.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">La imperfección del presente es la magia del futuro<br></p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/LucyCVieyra" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/lucy-carmona-vieyra-5724272a3" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/lucy.cv_05?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:9496@soyunaq.mx" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Lucy Carmona Vieyra &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
